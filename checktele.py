@@ -249,7 +249,7 @@ Caught by a sheikh 💸
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await sython.send_message(event.chat_id, "Feature @{username} ⏎")
+                        await sython.send_message(event.chat_id, "𝙳𝙾𝙽𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂 𝙿𝚁𝙾𝙿𝙴𝚁𝚃𝚈 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ⏎")
             else:
                 pass
             trys += 1
@@ -257,7 +257,7 @@ Caught by a sheikh 💸
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "⤷ ID : @{username}")
+        await event.client.send_message(event.chat_id, "⤷ 𝚃𝙷𝙴 𝙷𝚄𝙽𝚃𝙸𝙽𝙶 𝙸𝚂 𝙾𝚅𝙴𝚁 𝙾𝚁 𝚃𝙷𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂 𝙾𝙵 𝚃𝙷𝙴 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ⏎")
         
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
